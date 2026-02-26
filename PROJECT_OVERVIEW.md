@@ -1,19 +1,17 @@
 # Project Overview
 
 ## Objective
-Create a scalable digital brand in the Korean beauty niche.
+Build a scalable digital platform for Korean skincare education and product guidance.
 
-## Problems Solved
-- Product spam
-- Short-term sales focus
-- Lack of audience ownership
-- Unstructured marketing
-
-## Solution
-Authority-based brand with automated distribution and data-driven growth.
+## Core Goals
+- Build authority and audience trust
+- Collect and use audience data
+- Automate content distribution and engagement
+- Provide product recommendations as part of education
+- Long-term digital asset ownership
 
 ## Success Metrics
 - Audience growth
-- Engagement rate
-- Landing page conversion
-- Retargeting performance
+- Engagement and interaction
+- Landing page conversions
+- Retargeting efficiency

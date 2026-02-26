@@ -52,3 +52,8 @@ Each market requires tailored content and cultural understanding.
 ---
 
 ## Repository Structure
+- MARKET_RESEARCH
+- BRAND_STRATEGY
+- CONTENT_ENGINE
+- AUTOMATION_SYSTEM
+- ROADMAP

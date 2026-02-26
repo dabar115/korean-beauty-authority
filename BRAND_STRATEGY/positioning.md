@@ -1,13 +1,15 @@
 # Brand Positioning
 
 ## Who We Are
-A knowledge and education platform for Korean skincare.
+Educational and authority platform in Korean skincare.
 
 ## Who We Serve
-Individuals interested in skincare science and routines.
+Consumers interested in science-backed routines, healthy skin, and K-beauty products.
 
 ## Value Proposition
-We explain and curate, not just sell.
+We teach and recommend, not spam. Trusted guidance leads to natural conversions.
 
 ## Differentiation
-Authority and education instead of spam.
+- Education-first content
+- Authority over product pushing
+- Multi-market scalable strategy
