@@ -1,0 +1,47 @@
+korean-beauty-authority/
+│
+├── README.md
+├── PROJECT_OVERVIEW.md
+├── MARKET_RESEARCH/
+│   ├── germany.md
+│   ├── turkey.md
+│   ├── korea.md
+│   └── global_analysis.md
+│
+├── BRAND_STRATEGY/
+│   ├── positioning.md
+│   ├── brand_voice.md
+│   ├── bio_strategy.md
+│   └── visual_identity.md
+│
+├── CONTENT_ENGINE/
+│   ├── content_pillars.md
+│   ├── calendar_30_days.md
+│   ├── hooks_and_formulas.md
+│   └── caption_framework.md
+│
+├── AUTOMATION_SYSTEM/
+│   ├── architecture.md
+│   ├── scheduling.md
+│   ├── auto_dm_logic.md
+│   └── retargeting_strategy.md
+│
+├── LANDING_PAGE/
+│   ├── structure.md
+│   ├── copywriting.md
+│   └── conversion_flow.md
+│
+├── ANALYTICS/
+│   ├── tracking.md
+│   ├── kpi_dashboard.md
+│   └── reporting.md
+│
+├── FINANCIAL_MODEL/
+│   ├── revenue_simulation.md
+│   ├── commission_model.md
+│   └── growth_projection.md
+│
+└── ROADMAP/
+    ├── 90_day_plan.md
+    ├── 6_month_plan.md
+    └── long_term_strategy.md
