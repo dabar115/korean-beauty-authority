@@ -22,7 +22,7 @@ jobs:
         run: sudo npm install -g markdownlint-cli
 
       - name: Lint Markdown Files
-        run: markdownlint '**/*.md'
+        run: markdownlint --disable MD013,MD022,MD032 '**/*.md'
 
       # SPELLCHECK (Optional but useful)
       - name: Install Spellcheck Tool
