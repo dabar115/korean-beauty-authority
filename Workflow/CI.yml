@@ -1,0 +1,63 @@
+name: Hanglanz Global CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # MARKDOWN VALIDATION
+      - name: Install Markdown Lint
+        run: sudo npm install -g markdownlint-cli
+
+      - name: Lint Markdown Files
+        run: markdownlint '**/*.md'
+
+      # SPELLCHECK (Optional but useful)
+      - name: Install Spellcheck Tool
+        run: sudo npm install -g cspell
+
+      - name: Spellcheck Markdown
+        run: cspell '**/*.md'
+
+      # GOOGLE SITE TEMPLATE CHECK (HTML/Markdown)
+      - name: Validate HTML Templates (if any)
+        run: |
+          if ls templates/*.html 1> /dev/null 2>&1; then
+            npm install -g htmlhint
+            htmlhint templates/*.html
+          else
+            echo "No HTML templates found — skipping validation."
+          fi
+
+      # AUTOMATION PREPARATION (Instagram/Funnel)
+      - name: Check Automation Scripts
+        run: |
+          if ls AUTOMATION_SYSTEM/*.md 1> /dev/null 2>&1; then
+            echo "Automation documentation present."
+          else
+            echo "No automation docs found — consider adding."
+          fi
+
+      - name: Funnel Documentation Check
+        run: |
+          if ls LANDING_PAGE/*.md 1> /dev/null 2>&1; then
+            echo "Landing page documentation present."
+          else
+            echo "No landing page docs found."
+          fi
+
+      # SUCCESS MESSAGE
+      - name: Workflow Complete
+        run: echo "Hanglanz Global CI completed successfully."
