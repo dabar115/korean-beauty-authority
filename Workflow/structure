@@ -1,0 +1,11 @@
+Trigger (Cron: at each 6 hours )
+        ↓
+Pick Random File (folder)
+        ↓
+Upload Media to Instagram API
+        ↓
+Generate Caption (AI / template)
+        ↓
+Publish
+        ↓
+Log result (Google Sheet / DB)
